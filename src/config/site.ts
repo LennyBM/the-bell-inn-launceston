@@ -1,11 +1,11 @@
-import type { SiteConfig, NavLink } from './types';
+import type { SiteConfig, NavLink } from './types.ts';
 
 export const site: SiteConfig = {
   "slug": "the-bell-inn-launceston",
   "name": "The Bell Inn",
   "shortName": "The Bell Inn",
   "tagline": "A proper Cornish free house in the heart of historic Launceston",
-  "intro": "Deliberately minimal — this is a drinkers' pub, not a dining pub. Food is limited to a traditional Cornish pasty or a pork pie to enjoy with your pint. Reviewers describe it warmly as 'a wonderful pla",
+  "intro": "Deliberately minimal — this is a drinkers' pub, not a dining pub. Food is limited to a traditional Cornish pasty or a pork pie to enjoy with your pint.",
   "type": "Inn",
   "established": "c.1510",
   "siteUrl": "https://the-bell-inn-launceston.vercel.app",
@@ -184,7 +184,6 @@ export const site: SiteConfig = {
   "faqs": [],
   "images": [
     "img-00.jpg",
-    "img-01.jpg",
     "img-02.jpg",
     "img-03.jpg",
     "img-04.jpg",
@@ -192,7 +191,6 @@ export const site: SiteConfig = {
     "img-06.jpg",
     "img-07.jpg",
     "img-08.jpg",
-    "img-09.jpg",
     "img-10.jpg",
     "img-11.jpg",
     "img-12.jpg",
@@ -200,22 +198,42 @@ export const site: SiteConfig = {
     "img-14.jpg",
     "img-15.jpg",
     "img-16.jpg",
-    "img-17.jpg",
     "img-18.jpg",
-    "img-19.jpg",
     "img-20.jpg",
     "img-21.jpg"
   ],
-  "hero": "img-00.jpg",
+  "hero": "img-04.jpg",
   "featured": [
-    "img-01.jpg",
     "img-02.jpg",
     "img-03.jpg",
     "img-04.jpg",
     "img-05.jpg",
-    "img-06.jpg"
+    "img-06.jpg",
+    "img-00.jpg"
   ],
   "videoUrls": [],
+  "focal": {
+    "img-00.jpg": "35% 55%",
+    "img-02.jpg": "55% 65%",
+    "img-03.jpg": "50% 40%",
+    "img-04.jpg": "70% 45%",
+    "img-05.jpg": "45% 60%",
+    "img-06.jpg": "60% 55%",
+    "img-08.jpg": "60% 55%",
+    "img-11.jpg": "30% 55%",
+    "img-12.jpg": "50% 40%",
+    "img-13.jpg": "60% 40%",
+    "img-15.jpg": "35% 50%",
+    "img-16.jpg": "55% 70%",
+    "img-18.jpg": "45% 45%",
+    "img-20.jpg": "45% 55%",
+    "img-21.jpg": "50% 45%"
+  },
+  "design": {
+    "display": "inn",
+    "hero": "split",
+    "order": "food-led"
+  },
   "theme": {
     "mode": "light",
     "primary": "#6B2D2D",
